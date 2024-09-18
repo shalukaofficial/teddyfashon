@@ -1,0 +1,181 @@
+.header-body {
+    width: 100%;
+    height: 100vh;
+}
+
+
+.main-body {
+    width: 100vw;
+    height: 100vh;
+}
+
+.headerbox {
+    width: 100%;
+    background-color: rgb(235, 228, 232);
+    color: #000000;
+    background-size: contain;
+    border-bottom: #000000;
+    border: 2px;
+    display: flex;
+    scroll-snap-stop: always;
+}
+
+.hlogo {
+    background-image: url("resources/logo.png");
+    height: 90px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+
+}
+
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.menubox {
+    color: rgb(237, 10, 139);
+    padding: 3px;
+    background-color: rgba(232, 232, 232, 0.974);
+    border-radius: 8px;
+
+}
+
+.pinkcolor{
+    color: rgb(237, 10, 139);
+}
+
+.darkcolor{
+    background-color:rgba(232, 232, 232, 0.974);
+}
+
+
+.headermanuli {
+    cursor: pointer;
+    font-weight: bold;
+
+}
+
+.b1 {
+    border: rgb(244, 1, 163) 2px;
+    border-bottom: rgb(244, 1, 163) 2px;
+    border-style: inset;
+    background-position: center;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.423);
+
+}
+
+
+.headertop {
+    position: fixed;
+}
+
+
+.footerbox {
+    background-color: rgb(107, 107, 107);
+    color: rgb(255, 255, 255);
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.loginbox {
+    border: rgb(244, 1, 163) 2px;
+    border-bottom: rgb(244, 1, 163) 2px;
+    border-style: inset;
+    background-position: center;
+    box-shadow: inset black 100px;
+    border-radius: 5px;
+}
+
+@font-face {
+    font-family: "DeliciousHandrawn";
+    src: url("fonts/DeliciousHandrawn-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Wedding";
+    src: url("fonts/Wedding.otf");
+}
+
+.teddyfashon {
+    color: rgb(0, 0, 0);
+    font-family: Wedding;
+}
+
+.loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffffc2;
+    text-align: center;
+}
+
+.loader img {
+    margin-top: 350px;
+}
+
+.custom-tooltip {
+    --bs-tooltip-bg: var(--bd-violet-bg);
+    --bs-tooltip-color: var(--bs-white);
+}
+
+/* .profilepic{
+    background-color: #ff0385;
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+} */
+
+.profilepictext{
+    background-color: #0000006f;
+    height: 150px; 
+    width: 150px; 
+    border: white; 
+    border-radius: 50%; 
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    
+}
+
+.dfd{
+    display: none;
+}
+
+.profilepic:hover .dfd{
+    display: block;
+}
+
+.startshopingbtn{
+    --bs-btn-color:  rgb(237, 10, 139);
+    --bs-btn-bg: #ffffff;
+    --bs-btn-border-color: rgb(237, 10, 139);
+    --bs-btn-hover-color:  rgb(237, 10, 139);
+    --bs-btn-hover-bg: #f40bbe34;
+    --bs-btn-hover-border-color:  rgb(237, 10, 139);
+    --bs-btn-focus-shadow-rgb: 217, 164, 6;
+    --bs-btn-active-color: #000;
+    --bs-btn-active-bg: rgb(237, 10, 139);
+    --bs-btn-active-border-color: #ffc720;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #000;
+    --bs-btn-disabled-bg: #ffc107;
+    --bs-btn-disabled-border-color: #ffc107;
+}
+
+.body{
+    scroll-snap-stop: var(--bs-btn-hover-bg);
+}
+
+.homeIcon:hover{
+    transition-duration: 1s;
+    cursor: pointer;
+    background-color: rgb(237, 10, 139);
+
+
+}
